@@ -1,4 +1,5 @@
-Summary:	Translator from ruby to C
+Summary:	Translator from Ruby to C
+Summary(pl.UTF-8):	Translator z języka Ruby na C
 Name:		ruby-ruby2c
 Version:	1.0.0.5
 Release:	1
@@ -15,9 +16,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 ruby2c is a subset of the metaruby project, which aims at rewriting
-ruby's internals in ruby. ruby2c is the translation module and can
+ruby's internals in Ruby. ruby2c is the translation module and can
 automatically translate a method into equivalent C code for a subset
-of ruby. Very BETA, but making rapid progress.
+of Ruby. Very BETA, but making rapid progress.
+
+%description -l pl.UTF-8
+ruby2c to podzbiór pojektu metaruby, którego celem jest przepisanie
+wnętrzności interpretera ruby w języku Ruby. ruby2c to moduł
+tłumaczenia, potrafiący automatycznie tłumaczyć metodę na
+odpowiadający jej kod w C dla pozbioru języka Ruby. Zdecydowanie BETA,
+ale postępy są szybkie.
 
 %prep
 %setup -q -c
