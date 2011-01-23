@@ -10,7 +10,7 @@ Source0:	http://rubyforge.org/frs/download.php/10428/RubyToC-%{version}.gem
 URL:		http://ruby2c.rubyforge.org
 BuildRequires:	rake
 BuildRequires:	rpmbuild(macros) >= 1.277
-BuildRequires:	setup.rb = 3.3.1
+BuildRequires:	setup.rb >= 3.3.1
 Requires:	ruby-parsetree
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
